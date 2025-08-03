@@ -327,3 +327,62 @@ gap: 10px;
 border-radius: 5px;
 }
 
+
+
+
+/* section food item */
+
+
+.food-item-section{
+margin-top: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 50px;
+}
+
+.food-item-title  {
+
+margin: 0 auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+color: white;
+align-items: center;
+margin-bottom: 56px;
+
+
+}
+
+
+.food-item-title h2 {
+
+font-size: 48px;
+font-weight: 700;
+ 
+
+}
+
+
+.food-item-title h4 {
+font-size: 32px;
+font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+color: #FF9F0D;
+margin-bottom: 10px;
+
+
+}
+
+
+.food-item-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+.food-item-photo img{
+   border-radius: 5px;
+}
