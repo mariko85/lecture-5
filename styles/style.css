@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.conteiner{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black
+    
+}
+
+
+body{
+    
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+
+}
+
+
+header{
+    width: 1320px;
+    height: 87px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFFFFF;
+    font-size: 16px;
+    margin-top: 45px;
+   
+}
+
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: inherit;
+}
+
+.header-logo{
+    margin-bottom: 35px;
+                          /* ლოგო სწორად გამოდივიტანე? */
+
+
+}
+
+
+#pages{
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: inherit;
+}
+
+
+#handbag{
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    right: 30px;
+}
+#search-input{
+    width: 310px;
+    height: 54px;
+    border-radius: 30px;
+    border-color: #FF9F0D;
+    background-color: black;
+    font-size:24px;
+    margin-top:20px;
+}
+
+.search-icon{
+    position: relative;
+    right:50px;
+                                     /* სწორია???? */
+}
+
+/* section food quality */
+.food-quality{
+    margin-top: 200px;
+   
+
+}
+.food-quality-line{
+    width: 3px;
+    height: 158px;
+    background-color: white
+
+}
+
+.food-quality-cocial-icons{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+
+}
+.cocial-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:16px;
+    color: white;
+}
+
+.menu-box-title{
+    color: white;
+}
+
+.food-quality{
+    width: 1720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 93px;
+    position: absolute;
+    
+    margin-top: -20px;
+   
+   
+   
+   
+   
+        
+    
+}
+
+.header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-section{
+    margin: 0 auto;
+    position: relative;
+     width: 1720px;
+     height: 950px;
+    background-image: url("../images/handphoto.jpg");
+   
+background: 
+        linear-gradient(to top, rgba(0,0,0,250), rgba(0,0,0,0)), 
+        url("../images/handphoto.jpg") no-repeat center/cover;
+        opacity: 0.15;
+        
+}
+
+.food-quality-div{
+    
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+    
+   
+}
+
+
+
+.menu-box-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    width: 472px;
+    height: 365px;
+    gap: 33px;
+
+}
+
+.menu-box-title h2{
+   color: #FF9F0D;
+   font-size: 32px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+.menu-box-title h1{
+    font-size: 60px;
+    font-weight: 700;
+
+
+}
+
+.menu-box-title p{
+    
+
+}
+.menu-box-title button{
+    width: 190px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #FF9F0D;
+    color: white;
+    
+}
+
+
+.food-quality-image{
+    
+    position: relative; 
+    width: 870px;
+    height: 670px;
+    object-fit: cover;
+    margin-top: 198px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    
+   
+
+   
+   
+}
+
+
+
+ .list{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    bottom: 5%;
+    
+       
+    
+  
+}
+
+.eggplate{
+    position: absolute;
+   z-index: 2;
+  
+  
+ 
+   
+}  
+
+/* sectio food product */
+.foody-product-box{
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+    gap: 98px;
+    
+}
+
+
+.foody-product-title{
+    width: 562px;
+    height: 562px;
+    display: flex;
+    flex-direction: column;  
+    gap: 32px;
+ 
+
+}
+
+.foody-product-title h2{
+   font-size: 48px;
+     font-weight: 700;
+
+}
+
+.foody-product-title h4{
+    
+       color: #FF9F0D;
+     font-size: 32px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+
+
+
+}
+
+.foody-product-title p{
+    font-size: 16px;
+
+}
+
+
+.foody-product-title ul{
+   list-style-type:circle;
+    font-size: 16px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+}
+
+
+.foody-product-title button{
+    width: 190px;
+    height: 60px;
+    font-size: 16px;
+    background-color: #FF9F0D;
+    color: white;
+    border-radius: 30px;
+}
+
+.foody-product-photo{
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.foody-product-photo div{
+display: flex;
+gap: 10px;
+}
+
+
+
+.foody-product-photo div img{
+border-radius: 5px;
+}
+
