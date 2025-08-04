@@ -511,3 +511,21 @@ margin-bottom: 10px;
     flex-direction: column;
         gap: 25px;
 }
+
+.age-exsperiens{
+    width: 374px;
+    height: 92px;
+    background-color: #FFFFFF;
+}
+
+.age-exsperiens-line{
+    width: 10px;
+    height: 93px;
+    background-color: #FF9F0D;
+}
+
+.exsperienc-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
