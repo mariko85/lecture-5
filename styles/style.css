@@ -338,6 +338,8 @@ margin-top: 150px;
 display: flex;
 flex-direction: column;
 align-items: center;
+margin: 0 auto;
+margin-top: 150px;
 gap: 50px;
 width: 1320px;
 height: 716px;
@@ -405,6 +407,7 @@ margin-bottom: 10px;
     justify-content: center;
     align-items: center;
      gap: 16px;
+     margin: 0 auto;
 }
 .experienc-photos-top{
     display: flex;
@@ -427,7 +430,13 @@ margin-bottom: 10px;
     gap: 16px;
 
 }
+.booton-photo{
+      display: flex;
+  justify-content: center;
+    align-items: start;
+    gap: 16px;
 
+}
 
 .experienc-title h4 {
   color: #FF9F0D;
@@ -441,6 +450,7 @@ margin-bottom: 10px;
 .experienc-section{
  display: flex;
  justify-content: center;
+
  gap: 140px;
 }
 
@@ -465,8 +475,8 @@ margin-bottom: 10px;
 .icon-burger div{
     width: 56px;
     height: 56px;
-    background-color: #FF9F0D;
-    color: white;
+    
+    color:#FF9F0D;
     
 }
 
@@ -476,6 +486,8 @@ margin-bottom: 10px;
     align-items: center;
 
 }
+/*  */
+
 
 
 
@@ -484,6 +496,8 @@ margin-bottom: 10px;
 }
 
 
-.xperienc-photos{
-    gap: 140px;
+.experienc-title{
+    display: flex;
+    flex-direction: column;
+        gap: 25px;
 }
