@@ -862,3 +862,19 @@ justify-content: space-between;
     padding-top: 50px;
     justify-content: center;
 }
+
+.shef-card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: black;
+    width: 1920px;
+   margin: 0 auto;
+   padding-top: 250px;
+
+}
+
+.hef-card-box h2, h4{
+    color: white;
+}
