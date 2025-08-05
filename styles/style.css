@@ -756,12 +756,24 @@ justify-content: space-between;
     
 
 }
+.shef-card{
+    padding-top: 50px;
+    background-color: black;
+}
+
+      
+
 
 .section-oure-meniu{
-    background-color: black;
+  
     color: white;
     padding-top: 50px;
     
+}
+
+
+.section-oure-meniu{
+    background-color: black;
 }
 .oure-meniu-box ul{
     display: flex;
@@ -863,18 +875,59 @@ justify-content: space-between;
     justify-content: center;
 }
 
-.shef-card-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    background-color: black;
-    width: 1920px;
-   margin: 0 auto;
-   padding-top: 250px;
+
+
+.shef-card-title h2, h4{
+    font-size: 25px;
+   
 
 }
 
-.hef-card-box h2, h4{
+
+.shef-card-title h4{
+    font-size: 48px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    font-weight: 700;
     color: white;
+   
+
+
+}
+
+.shef-card-box{
+    width: 1920px;
+}
+
+.shef-card-title h2{
+    font-size: 32px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    font-weight: 400;
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #FF9F0D;
+ 
+
+}
+
+.shef-card{
+    padding-top: 18px;
+}
+
+
+.shef-photo-box{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+ 
+    background-color: black;
+    width: 1920px;
+   margin: 0 auto;
+   padding-top: 150px;
+
 }
