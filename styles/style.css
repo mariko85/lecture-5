@@ -745,3 +745,113 @@ justify-content: space-between;
 }
 
 /* oure meniu */
+
+.oure-meniu-box{
+    
+    width: 1320px;
+    height: 656px;
+    margin: 0 auto;
+ 
+ 
+    
+
+}
+
+.section-oure-meniu{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    
+}
+.oure-meniu-box ul{
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+     padding-bottom: 50px;
+
+}
+
+.oure-meniu-box h2, h3 { 
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.oure-meniu-bgphoto{
+    display: flex; 
+
+}
+
+.meniu-list{
+     display: flex; 
+    flex-direction: row;
+   
+}
+
+
+.meniu-list-title{
+     display: flex; 
+  flex-direction: column;
+  align-items:start;
+  gap: 8px;
+
+}
+
+.meniu-list-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.meniu-list h2{
+    color:#FF9F0D;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+.meniu-list h4{
+    
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.meniu-list h3{
+  
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.meniu-h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #FF9F0D;
+
+}
+
+.oure-meniu-box ul{
+    font-size: 20px;
+    font-weight: 700px;
+
+}
+
+
+.meniu-h2{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.oure-meniu-bgphoto{
+    gap: 30px;
+}
