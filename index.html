@@ -10,51 +10,59 @@
 </head>
 <body>
     <div class="conteiner">
-        <header>
-            
-            <nav class="navigation"> 
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Pages</a></li>
+
+        <header class="header">
+            <div class="content-conteiner header-conteiner flex-culumn">
+                <div class="header-logo">
+                    <h2  class="heading1"> <span class="span-heading"> Food</span>tuck</h2>
+
+                </div>
+            <div class="header-bar flex-row">
+
+                <nav class="header-nav"> 
+                  <ul  class="header-nav-ul flex-row">
+                    <li><a href="#" class="header-a">Home</a></li>
+                    <li><a href="#" class="header-a">Menu</a></li>
+                    <li><a href="#" class="header-a">Blog</a></li>
+                    <li><a href="#" class="header-a">Pages</a></li>
                     <li>
-                        <select name="pages" id="pages">
+                        <select name="pages" id="pages" class="header-select">
                             <option value="page">About</option>
                             <option value="page">About</option>
                         </select>
                     
                     </li>
-                    <li><a href="#">Shop </a></li>
-                    <li><a href="#">Contact  </a></li>
-                </ul>
-            </nav>
+                    <li><a href="#" class="header-a">Shop </a></li>
+                    <li><a href="#" class="header-a">Contact  </a></li>
+                  </ul>
+                 </nav>
 
-            <div class="header-logo">
-                <a href="#"> <img src="./images/logo.png" alt="site-logo" id="header-logo"></a>
-               
+                <div class="header-tools flex-row" >
+                    <form action="" class="header-imput">
+                        <input type="text"placeholder="search" name="search-input" id="search-input">
+                        <button class="header-buton" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button >
+                    </form>
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+               </div>
 
             </div>
-            <div class="search-area">
-                <input type="text" id="search-input" name="search-input" placeholder="    Search..." style="color: white;" >
-                <img src="./images/serch-icon.png" alt="search-icon" class="search-icon">
-                <img src="./images/Handbag.png" alt="handbag" id="handbag">
-            </div>
+
+        </div>
 
           
-
         </header>
-        <main>
-            <section class="header"> 
-                <div class="header-section">
 
-                </div>
 
-            <div class="food-quality">
-               
-               
 
-                <div class="food-quality-div">
+        <main>  <section class="hero-section">
+            <div class="content-conteiner content-conteiner-hero">
+              
+
+                <div class="hero-left">
+
+                    <div class="food-quality-div">
                     <div class="food-quality-cocial-icons">
                         <div class=" food-quality-line">
 
@@ -86,20 +94,25 @@
 
                 </div>
 
+                </div>
+                  <div class="hero-right">
+                    <div class="hero-right-sirgle">
+                        <img src="./images/meadl1.png" alt="" class="meal1 meal">
+                         <img src="./images/meadl2.png" alt="" class="meal2 meal">
+                          <img src="./images/meadl3.png" alt="" class="meal3 meal">
+                           <img src="./images/meadl4.png" alt="" class="meal4 meal">
 
-
-
-                <div class="food-quality-image">
-                    <img src="./images/eggs.png" alt="" class="eggplate">
-                    <img src="./images/list.png" alt="" class="list">
+                    </div>
 
                 </div>
 
             </div>
+        </section>
 
-            </section>
+
+
             
-        <section class="foody-product">
+        <section class="foody-product"> 
 
             <div class="foody-product-box">
                 <div  class="foody-product-title">
@@ -130,7 +143,8 @@
 
         </section>
 
-        <section class="food-item-section">
+        <section class="food-section">
+            <div class="food-item-section"> 
             <div class="food-item-title">
                 <h4> Food Category</h4>
                 <h2>Choose Food Iteam</h2>
@@ -142,6 +156,8 @@
                 <img src="./images/food-item2.png" alt="">
                 <img src="./images/food-item3.png" alt="">
                 <img src="./images/food-item4.png" alt="">
+            </div>
+
             </div>
         </section>
 
@@ -212,7 +228,7 @@ And Experienced </h2>
                             <h2>30+</h2>
 
                         </div>
-                        <div class="experienc-age-title" style="bgcolor: aqua;">
+                        <div class="experienc-age-title" >
                             <h3>Years of</h3>
                             <h2>Experienced</h2>
 
@@ -226,7 +242,7 @@ And Experienced </h2>
             </div>
 
         </section>
-        </main>
+        </main> 
 
         <footer>
 
