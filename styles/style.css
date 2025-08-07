@@ -691,8 +691,11 @@ position: absolute;
   
 }
 
-.experienc-age-title{
-   
+.shef-name{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 181px;
+    height: 61px;
 }
 
 
@@ -949,7 +952,36 @@ justify-content: space-between;
     width: 1920px;
    margin: 0 auto;
    padding-top: 150px;
+   position: relative;
    
+
+}
+
+
+
+
+.shef-name{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 181px;
+    height: 61px;
+   bottom: 3%;
+   padding: 10px;
+   gap: 10px;
+}
+
+
+.shef-name h2{
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.shef-name h3{
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items:center;
 
 }
 
@@ -1132,3 +1164,231 @@ font-weight: 700px;
     gap: 25px;
 }
 
+
+/* footer */
+
+
+.top-newleter{
+    width: 1170px;
+    height: 142px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0 auto;
+   
+}
+
+.top-newleter-text {
+   
+    color: #FFFFFF;
+    margin-bottom: 25px;
+ 
+
+}
+
+.footer-conteiner{
+   background-color:  black;
+   width: 1920px;
+   margin: 0 auto;
+   padding-top: 120px;
+}
+
+
+.top-newleter-text h2{
+    font-size: 32px;
+    font-weight: 700;
+     margin-bottom: 15px;
+  
+}
+
+.top-newleter-text h4{
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+
+
+.mail-box{
+    color: white;
+}
+
+.mail-text{
+    width:300px ;
+    height: 56px;
+    background-color: #FF9F0D;
+}
+.subscribe-button{
+    background-color: #FFFFFF;
+    width:120px ;
+    height: 56px;
+}
+
+.footer-line{
+    width: 1170px;
+    height: 3px;
+     background-color: #FF9F0D;
+     margin: 0 auto;
+
+}
+
+
+.about-Us{
+   
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+
+}
+
+
+
+.useful-Links{
+       
+       width: 312px;
+
+}
+
+.Help{
+       
+       width: 312px;
+
+}
+
+.recent-Post{
+    
+    width: 312px;
+
+}
+
+.footer-main-conteiner{
+    width: 1920px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding-top: 65px;
+    font-size: 18px;
+}
+
+
+.recent-post-card{
+    display: flex;
+    align-items: start;
+    
+    gap: 20px;
+}
+
+.recent-card-font{
+    font-size: 18px;
+    color: white;
+
+}
+
+.recent-Post h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 30px;
+}
+
+
+.time-logo{
+    width: 78px;
+    height: 72px;
+    background-color: #FF9F0D;
+}
+
+.footer-time{
+    display: flex;
+    gap: 15px;
+}
+
+.footer-time-text h3{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 5px;
+}
+
+.useful-Links h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.useful-Links ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 30px;
+}
+
+
+
+.Help h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Help ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 30px;
+}
+
+
+.recent-Post h2{
+    margin-bottom: 25px;
+}
+
+
+.recent-post-card{
+    display: flex;
+    justify-content: start;
+    gap:20px;
+}
+
+
+.recent-card-font h4 {
+    font-size: 18px;
+    justify-content: start;
+}
+   
+
+.recent-card-font h3 {
+    font-size: 18px;
+    justify-content: start;
+    color: #FFFFFF;
+}
+   
+
+
+.footer-button{
+    width: 1920px;
+    height: 100px;
+    background-color: #FF9F0D;
+    padding-top: 60px;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    color:white;
+     font-size: 20px;
+     align-items: center;
+     
+
+}
+
+
+.footer-button div{
+  
+     font-size: 30px;
+     
+
+}
