@@ -668,21 +668,35 @@ margin-bottom: 10px;
 
 .age-exsperiens{
     width: 374px;
-    height: 92px;
+    height: 93px;
     background-color: #FFFFFF;
+    position: relative;
 }
 
 .age-exsperiens-line{
+    position: absolute;
     width: 10px;
     height: 93px;
+  
     background-color: #FF9F0D;
 }
 
 .exsperienc-box{
+position: absolute;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: start;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+  
 }
+
+.experienc-age-title{
+   
+}
+
+
+
 
 
 
