@@ -13,6 +13,14 @@ font-family: "Inter", sans-serif;
   
 }
 
+.font-main{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
 .prymery-font{
        color: #FF9F0D;
    font-size: 32px;
@@ -965,7 +973,7 @@ justify-content: space-between;
     background-color: #FFFFFF;
     width: 181px;
     height: 61px;
-   bottom: 3%;
+    bottom: 0%;
    padding: 10px;
    gap: 10px;
 }
@@ -1018,9 +1026,10 @@ justify-content: space-between;
     font-size: 16px;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 70px;
     border-radius: 25px;
-    width: 155px;
-    height: 50px;
+    width: 170px;
+    height: 55px;
    
 }
 
@@ -1186,12 +1195,6 @@ font-weight: 700px;
 
 }
 
-.footer-conteiner{
-   background-color:  black;
-   width: 1920px;
-   margin: 0 auto;
-   padding-top: 120px;
-}
 
 
 .top-newleter-text h2{
@@ -1221,6 +1224,7 @@ font-weight: 700px;
     background-color: #FFFFFF;
     width:120px ;
     height: 56px;
+    left: -50px;
 }
 
 .footer-line{
@@ -1270,6 +1274,8 @@ font-weight: 700px;
     color: #FFFFFF;
     padding-top: 65px;
     font-size: 18px;
+    padding-bottom: 50px;
+    gap: 35px;
 }
 
 
@@ -1283,6 +1289,10 @@ font-weight: 700px;
 .recent-card-font{
     font-size: 18px;
     color: white;
+    gap: 5px;
+      display: flex;
+    flex-direction: column;
+
 
 }
 
@@ -1290,7 +1300,7 @@ font-weight: 700px;
     color: white;
     font-size: 24px;
     font-weight: 700;
-    gap: 30px;
+  
 }
 
 
@@ -1298,7 +1308,13 @@ font-weight: 700px;
     width: 78px;
     height: 72px;
     background-color: #FF9F0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+   
 }
+
 
 .footer-time{
     display: flex;
@@ -1368,27 +1384,28 @@ font-weight: 700px;
 
 
 .footer-button{
+    margin: 0 auto;
     width: 1920px;
     height: 100px;
     background-color: #FF9F0D;
-    padding-top: 60px;
-}
-
-.footer-button {
-    display: flex;
+     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 0 auto;
-    color:white;
-     font-size: 20px;
+    color:rgb(244, 239, 239);
      align-items: center;
-     
-
 }
 
 
-.footer-button div{
+
+
+
+
+.footer-button div i {
   
-     font-size: 30px;
+     font-size: 18px;
+     color: black;
+     background-color: #FFFFFF;
      
 
 }
@@ -1503,4 +1520,31 @@ padding: 190px;
     font-size: 16px;
     font-weight: 400;
     
+}
+
+.food-plant{
+     width: 422px;
+    height: 390px;
+    display: inline-block;
+   opacity: 0.8;
+   display: flex;
+   justify-content: end;
+   align-items: end;
+   left: 50%;
+
+   
+}
+
+
+
+
+
+.footer-conteiner{
+   background-color:  black;
+   width: 1920px;
+   margin: 0 auto;
+   padding-top: 120px;
+   position: relative;
+   
+
 }
