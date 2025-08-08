@@ -1393,3 +1393,44 @@ font-weight: 700px;
 
 }
 
+
+.testimonials{
+   background-color: black;
+   
+    padding-top: 500px;
+    color: #FFFFFF;
+}
+
+.testimonials-div{
+     width: 886px;
+    height: 450px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    color: black;
+    position: relative;
+    z-index: 1;
+
+}
+
+.testimonials-div p{
+padding: 190px;
+}
+
+.testimonials-man{
+   display: block;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   position: absolute;
+   left:45%;
+ top: -20%;
+ z-index: 2;
+ border: 2ps solid red;
+ border-radius: 50%;
+}
+
+.testimonials-content{
+    position: relative;
+   
+}
